@@ -1,5 +1,7 @@
 # Scrimba | Learn JS | Build a Basketball Scoreboard
 
+![Basketball Scoreboard](./assets/scoreboard.jpg)
+
 ## Instructions
 
 - Build it from "scratch"
@@ -18,4 +20,5 @@
 - [Scrimba Challenge](https://scrimba.com/learn/learnjavascript/solo-project-basketball-scoreboard-cz9adVfP)
 - [Figma Design](https://www.figma.com/file/YC48MCx4frBFtYoz6rNJE6/Basketball-Scoreboard?node-id=0%3A1)
 - [Custom font](https://www.fontspace.com/cursed-timer-ulil-font-f29411)
+- [Alternative Fonts](https://fonts.google.com/specimen/Tourney)
   
