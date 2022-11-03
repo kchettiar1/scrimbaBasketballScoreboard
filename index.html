@@ -17,20 +17,21 @@
   <div class="page-container">
 
     <header class="page-title">
-      <h1>Scrimba | Learn JS | Basketball Scorecard</h1>
+      <h1>Scrimba | Learn JS | Basketball Scoreboard</h1>
     </header>
 
     <section class="scoreboard-container">
 
       <div class="score-container">
         <div class="team-name">HOME</div>
-        <div class="team-score" id="home-score">0</div>
+        <div class="team-score home-team" id="home-score">0</div>
         <div class="team-score-update">
           <button class="update-score" onclick="homePlusOne()">+1</button>
           <button class="update-score" onclick="homePlusTwo()">+2</button>
           <button class="update-score" onclick="homePlusThree()">+3</button>
         </div>
       </div>
+      <div class="newGame" onclick="newGameReset()">New Game</div>
 
       <div class="score-container">
         <div class="team-name">GUEST</div>
@@ -44,7 +45,6 @@
 
     </section>
 
-    <!-- <button onclick="resetScores()">RESET</button>   -->
   </div>
 
 </body>

@@ -4,6 +4,8 @@ let guestScore = 0;
 let guestScoreEl = document.getElementById('guest-score');
 let homeScoreEl = document.getElementById('home-score');
 
+
+
 // * Home Score
 function homePlusOne() {
   homeScore += 1;
@@ -34,10 +36,14 @@ function guestPlusThree() {
   guestScoreEl.textContent = guestScore;
 }
 
-function resetScores() {
+function newGameReset() {
   homeScore = 0;
   homeScoreEl.textContent = homeScore;
   guestScore = 0;
   guestScoreEl.textContent = guestScore;
 }
+
+let scoreLeader = document.querySelectorAll('.team-score');
+
+
 

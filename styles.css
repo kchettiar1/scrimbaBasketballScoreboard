@@ -107,6 +107,7 @@ body {
   align-self: center;
   margin-block-start: 3rem;
   background-color: #1B244A;
+  border-radius: 15px;
   color: white;
   width: 575px;
   height: 385px;
@@ -158,4 +159,15 @@ body {
 
 .update-score:nth-child(3) {
   margin-right: 0;
+}
+
+.newGame {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #F94F6D;
+}
+
+.scoreboard-leader {
+  border: 2px solid white;
 }
